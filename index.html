@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale">
+    <title>HTML INTERVIEW</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="text-align: center;">HTML Interview Questions</h1>
+    <hr>
+    <ol type="1">
+        <h4><li>Difference between &ltdiv&gt and &ltspan&gt elements?</li></h4>
+        <ol type="a">
+            <li><div>&ltdiv&gt : Division tag,It is a Block-level Element,It takes whole width of the browser/webpage.<div></li>
+                <dd>1. Used create division of a webpage.</dd>
+            <li><div>&ltspan&gt : Span tag, It is an inline element,it only takes spaceas per the elements present inside of it.</div></li>
+                <dd>1. Used to wrap small portions of text,image etc.</dd>
+        </ol>
+        <p>Similarities:  Both tags are used foe Wrapping or conatining other HTML elements.</p>
+    <br>
+    &ltdiv style="background-color: aqua;"&gt <br>
+    &ltem&gtsomething2&lt/em&gt <br>
+    &ltem&gtSomething2&lt/em&gt <br>
+    &ltem&gt>Something2&lt/em&gt <br>
+    &ltem&gtSomething2&lt/em&gt <br>
+    &lt/div&gt <br>
+    &ltspan style="background-color:yellow;"&gt <br>
+    &ltem&gtSomething2&lt/em&gt <br>
+    &ltem&gtSomething2&lt/em&gt <br>
+    &ltem&gtSomething2&lt/em&gt <br>
+    &ltem&gtSomething2&lt/em&gt <br>
+    &lt/span&gt
+    <br>
+    <h4><li>Differentiate between class and id attribute.</li></h4>
+    <h4>Both tags are used for providing identification parameters to a HTML element."class"attribute is generally used for CSS styling whereas "id"</h4>
+    Id: Must be unique. <br>
+    Class: Need not be unique.
+    <br><br>
+    &ltem class="My style"&gtsomething2&lt/em&gt <br><br>
+    &ltem id="1"&gtSomething2&lt/em&gt
+    <br>
+    <h4><li>What are self-closing tags?</li></h4>
+   <p> Self-closing tag are tags that donot need a closing tag.</p><br>
+   example:&ltimg&gt:image tag <br>
+   &ltbr&gt :Line Break tag <br>
+   &lthr&gt :Horizonatal rule tag <br>
+   &ltmeta&gt :meta tag: Only exist to provide information about the web document. <br>
+   <br>
+   <h4><li>How many types of heading are there ?</li></h4>
+   <ol type="a">
+   <li> H1 :32px </li> 
+   <li> H2 :24px</li>
+   <li>H3 :18px</li>
+   <li>H4 :16px</li>
+   <li>H5 :13px</li>
+   <li>H6 :10px</li>
+   </ol>
+   <br>
+   <h4><li>Difference between Block and Inline eelements?</li></h4>
+   <ul type="disc">
+    <li>Block Elements take the whole width of the webpage.</li>
+    <li>Inline Elements take width necessary for the content inside it.</li><br>
+    <li>Block Elements always start on a new line.</li>
+    <li>Inline elementa don't start on a new line.</li> <br>
+    <li>Block Elements Example : &ltdiv&gt, &ltp&gt, &lth1&gt to &lth6&gt, &ltable&gt, &ltli&gt</li>
+    <li>Inline Elements Example : &ltspan&gt ,&ltimg&gt, &lta&gt,&ltinput&gt, &ltlabel&gt,&ltiframe&gt</li>
+</ul>
+<br>
+<h4><li>Difference between &ltem&gt and &ltstrong&gt ?</li></h4>
+<p>Similarity : Both are inline elements that are used to emphasizing parts of a sentence.</p>
+<p>Em : Makes it italicized : The &ltem&gt element is for words that have a stresed emphasis compared to surrounding text, which is often limited to a word or words of a sentence and affects the meaning of the sentence itself.This text or word is more important than the others.</p> 
+<p>The &ltstrong&gt element is for content that is of greater importance,while the &ltb&gt element is used to draw attention to text without indicating that it's more important.</p>
+<h4><li>What is an attribute?</li></h4> 
+<p>Attribute are special words that provide additional information about the specific Element that you have made</p>
+<p>Attribute are always specified in the starting tag of the HTML element.</p>
+&ltform <strong>action="" method="" target="" </strong>&gt <br>
+&lt/form&gt
+<br>
+<h4><li>Difference between HTML Tags and HTML Elements?</li></h4>
+<p><strong>HTML Elements</strong> are created using<strong> HTML Tags</strong>.</p>
+<p><strong>HTML Tags </strong>: Tags are enclosed between &lt and &gt symbols.Every HTML element has it's own set of HTML Tags.</p>
+<br>
+&lta href="www.prepbytes.com"&gtLink&lt/a&gt
+<br>
+<div>An HTML element is the content that appears on the web page,while an HTML tag is the code to define that content and specify 
+how it should be displayed.</div>
+<br>
+<h4><li>Explain the &ltbr&gt tag ?</li></h4>
+<ul type="disc">
+    <li>&ltbr&gt :Line Break</li>
+    <li>Self Closing taf</li>
+    <li>It is a Block Element</li>
+    <li>All elements occuring after &ltbr&gt will be sent to the next line.</li>
+    <li>Used for creating a division of Line.</li>
+    <li>When the web page is rendered in a web browser,any content that comes after the &ltbr&gt tag will appear on the next line.</li>
+</ul><br>
+<h4><li>What are Semantic Tags ?</li></h4>
+<br>
+<strong>HTML Tags can be classified into 2 groups</strong><br>
+<strong>
+    <ul type="circle">
+        <li>Semantic Tags</li>
+        <ul style="list-style-type:square;">
+            <li>Tag that are specific about their functionality</li>
+            <li>Example : &ltimg&gt, &ltbutton&gt, &lth1&gt,&lta&gt </li>
+        </ul><br>
+                <li>Non-Semantic Tags</li>
+                <ul style="list-style-type: square;">
+                <li>Tags that are generally meant to group/wrap other HTML Elements inside of them.</li>
+                <li>Thesetags don't display anything by themselves.</li>
+                <li>Eg: &ltdiv&gt ,&ltspan&gt, &ltform&gt ,&ltsection&gt,&ltnav&gt ,&ltheader&gt,&ltfooter&gt</li>
+            </ul>
+    </ul>
+    </strong><br>
+    <h4><li>Write a code of Ordered list.</li></h4>
+    <strong style="text-decoration: underline;">Ordered List &ltol&gt</strong>
+<strong>
+        <dl>
+            <dd>Type :1/i/A/a</dd>
+            <dd>Default :1</dd>
+            <dd>Reversed</dd>
+            <dd>Start :""</dd>
+            </dl>
+            </strong><br>
+            <h4><li>Write a code of Unorderded list.</li></h4>
+            <strong style="text-decoration: underline;">Unordered List</strong>
+            <strong>
+                <dl>
+                    <dd>Type :Disc/Square /Circle/None</dd>
+                    <dd>Default: Disc</dd>
+                </dl>
+            </strong>
+            <br>
+            <h4><li>Write a Code of description List.</li></h4>
+            <strong style="text-decoration: underline;">Description List</strong>
+            <dl>
+                <dt>&ltdl&gt</dt>
+            </dl>
+            <dl>
+                <dd>&ltdt&gt&lt/dt&gt --------------Description Title</dd>
+                <dd>&ltdd&gt&lt/dd&gt --------------Description data</dd>
+            </dl>
+            <dl>
+                <dt>&lt/dl&gt</dt>
+            </dl>
+            <br>
+            <h4><li>Write a code to create a link to http://www.prepbytes.com</li></h4>
+                <strong>&lta&gt : Anchor tag <br>
+                    Attributes:
+                    <ol type="1">
+                        <li>href :url that you wanna visit</li>
+                        <li>Target :</li>
+                    </ol>
+                    <ol type="a">
+                        <li>Default :_self (opens the link in the same window.)</li>
+                        <li>_blank(open the link in a separate window.)</li>
+                    </ol>
+                 </strong><br>
+                 <a href="https://www.prepbytes.com/">prepbytes home</a>
+                 <br>
+                 <h4><li>Write a code to insert a image.</li></h4>
+                 <strong>&ltimg&gt : Image Tag<br>
+                 Attributes :
+                 src -Source</strong><br><br>
+                 <img src="images.png" alt="My Image"><br>
+                 <h4><li>Create a form contain input fields like Name,Age,Email,Contact?</li></h4>
+                 <form>
+                    <label for="name">Name :</label>
+                    <input type="text" id="name" name="Name" placeholder="Enter no."><br><br>
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="Age" placeholder="Age"><br><br>
+                    <label for="email">Email :</label>
+                    <input type="text" id="email" name="Email" placeholder=" enter email"><br><br>
+                    <label for="contact">Contact No.</label>
+                    <input type="number" id="contact" name="Contact" placeholder="contact no."><br>
+                    </form><br>
+                    <h4><li>Create a table and explain how to achieve colspan ?</li></h4>
+                    <table border="1">
+                        <tr>
+                        <th>Name</th>
+                        <th colspan="2">Batch</th>
+                        <th>Salary</th>
+                        <th>Contact</th>
+                    </tr>
+                    <tr>
+                        <td>Shikha</td>
+                        <td>EA22</td>
+                        <td>EA23</td>
+                        <td>50000</td>
+                        <td>123456789</td>
+                    </tr>
+                    <tr>
+                        <td>Nishu</td>
+                        <td>EA22</td>
+                        <td>EA23</td>
+                        <td>40000</td>
+                        <td>456123789</td>
+                    </tr>
+                    </table><br>
+                    <h4><li>Create a radio button (MERN,MEAN:course) and checkbox(HTML,CSS,React,Node:Technology) and explain the Difference between two?</li></h4>
+                        <h4>Course:</h4>
+                         <input type="radio" id="mern" name="stack">
+                        <label for="mern">MERN</label><br>
+                        <input type="radio" id="mean" name="stack">
+                        <label for="mean">MEAN</label>
+                        <br>
+                        <h4>Technology:</h4>
+                        <input type="checkbox" id="html" name="web">
+                        <label for="html">HTML</label><br>
+                        <input type="checkbox" id="css" name="web">
+                        <label for="css">CSS</label><br>
+                        <input type="checkbox" id="react" name="web">
+                        <label for="react">React</label><br>
+                        <input type="checkbox" id="node" name="web">
+                        <label for="node">Node</label>
+    
+</body>
+</html>
